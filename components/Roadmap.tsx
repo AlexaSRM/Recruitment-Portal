@@ -1,5 +1,8 @@
 import React from 'react'
 import { Chrono } from "react-chrono";
+import Image from 'next/image'
+import group10 from '../public/Group10.png'
+import group11 from '../public/Group11.png'
 
 
 function Roadmap() {
@@ -23,6 +26,12 @@ function Roadmap() {
             titleColorActive: 'grey',
           }}
         >
+          <div className="chrono-icons">
+            <img src="https://img.icons8.com/ios-filled/100/000000/contacts.png" alt="img1" />
+            <img src="https://img.icons8.com/ios-filled/100/000000/contacts.png" alt="img1" />
+          </div>
+
+
           <div className="">
             <div className="text-4xl ml-auto flex justify-end font-medium my-4 text-[#FF8062]">Registration</div>
             <div className="text-right text-[#808096]">Fill the form below by entering required details to get your journey started!</div>
