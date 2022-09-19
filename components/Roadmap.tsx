@@ -4,19 +4,25 @@ import { Chrono } from "react-chrono";
 // items
 const items = [
   {
-    title: "May 1940",
-    cardTitle: "Dunkirk",
-    url: "http://google.com",
+    cardTitle: "Registration",
     cardSubtitle:
-      "Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.",
-    cardDetailedText: `On 10 May 1940, Hitler began his long-awaited offensive in the west by invading neutral Holland and Belgium and attacking northern France. Holland capitulated after only five days of fighting, and the Belgians surrendered on 28 May. With the success of the German ‘Blitzkrieg’, the British Expeditionary Force and French troops were in danger of being cut off and destroyed.`
+      "Fill the form below by entering required details to get your journey started!",
   },
   {
-    title: "25 July 1940",
-    cardTitle: "The Battle of Britain",
-    cardSubtitle: `RAF Spitfire pilots scramble for their planes`,
-    cardDetailedText: `After France’s surrender in June 1940, Churchill told the British people, “Hitler knows that he will have to break us in this island or lose the war”. To mount a successful invasion, the Germans had to gain air superiority. The first phase of the battle began on 10 July with Luftwaffe attacks on shipping in the Channel.
-      The following month, RAF Fighter Command airfields and aircraft factories came under attack. Under the dynamic direction of Lord Beaverbrook, production of Spitfire and Hurricane fighters increased, and despite its losses in pilots and planes, the RAF was never as seriously weakened as the Germans supposed.`
+    cardTitle: "Email",
+    cardSubtitle: "Keep yourself up to date by checking your registered email on the regular. (Sneak a peek in the spam folder too)",
+  },
+  {
+    cardTitle: "Tests/Tasks",
+    cardSubtitle: "Let the fire in you be kindled. Showcase your talent through tests or tasks to make your mark among the competitors.",
+  },
+  {
+    cardTitle: "Interviews",
+    cardSubtitle: "You are just one step away. Keep calm and get ready for a small, casual interview.",
+  },
+  {
+    cardTitle: "Welcome",
+    cardSubtitle: "Look at that! You are now officially a part of the Alexa Developers SRM family. Much surprises await on the other side!",
   },
 ];
 
@@ -25,11 +31,25 @@ function Roadmap() {
   return (
     <div className="w-[100vw] flex flex-col justify-center items-center">
       <div className="md:text-6xl text-4xl md:font-bold font-medium">Road to <span className="text-[#28b3f2]">Alexa</span></div>
-      <div style={{ width: "100%", height: "90vh" }}>
+      <div className="md:my-12" style={{ width: "100%", height: "100vh"}}>
         <Chrono
           items={items}
           mode="VERTICAL_ALTERNATING"
-          cardHeight={150}
+          cardHeight={120}
+          cardWidth={500}
+          hideControls="true"
+          theme={{
+            primary: 'red',
+            secondary: 'blue',
+            cardBgColor: 'yellow',
+            cardForeColor: 'violet',
+            titleColor: 'black',
+            titleColorActive: 'red',
+          }}
+          fontSizes={{
+            cardSubtitle: '1rem',
+            cardTitle: '2.5rem',
+          }}
         />
       </div>
     </div>
