@@ -1,25 +1,15 @@
 import React from 'react'
-import rectangle from '../public/rectangle.png'
-import tech from '../public/tech.png'
 import Image from 'next/image'
 
-function DomainsImage() {
+function DomainsImage(props:any) {
   return (
-    <div className='relative'>
+    <div className=''>
       <div className="">
         <Image
-          src={rectangle}
+          src={props.image}
           alt="Picture of the author"
           width="150px"
-          height="200px"
-        />
-      </div>
-      <div className="absolute left-6 top-12">
-        <Image
-          src={tech}
-          alt="Picture of the author"
-          width="100px"
-          height="100px"
+          height="250px"
         />
       </div>
     </div>
