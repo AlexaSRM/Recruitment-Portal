@@ -8,8 +8,8 @@ function DomainsImage(props:any) {
         <Image
           src={props.image}
           alt="Picture of the author"
-          width="150px"
-          height="250px"
+          width="200px"
+          height="300px"
         />
       </div>
     </div>
