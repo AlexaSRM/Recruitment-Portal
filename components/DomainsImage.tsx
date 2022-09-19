@@ -4,7 +4,7 @@ import Image from 'next/image'
 function DomainsImage(props:any) {
   return (
     <div className="">
-      <div className="">
+      <div className="md:w-full w-[60%] m-auto">
         <Image
           src={props.image}
           alt="Picture of the author"
