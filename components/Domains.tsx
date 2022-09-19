@@ -7,7 +7,7 @@ import frame11 from '../public/frame11.png'
 
 function Domains() {
   return (
-    <div className="border-2 border-black w-[70vw] ml-auto flex flex-col justify-center items-center">
+    <div className="w-[70vw] ml-auto flex flex-col justify-center items-center">
       <div className="text-6xl bold">Our <span className="text-[#28b3f2]">Domains</span></div>
       <div className="flex my-12">
         <div className="mx-6"><DomainsImage image={frame9}/></div>

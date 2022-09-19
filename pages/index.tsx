@@ -5,7 +5,7 @@ import Domains from '../components/Domains'
 
 const Home: NextPage = () => {
   return (
-    <div className="">
+    <div className="bg-[#01002d] h-[100vh] text-white">
       <Domains/>
     </div>
   )

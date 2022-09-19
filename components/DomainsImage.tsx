@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 function DomainsImage(props:any) {
   return (
-    <div className=''>
+    <div className="">
       <div className="">
         <Image
           src={props.image}
