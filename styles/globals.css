@@ -42,7 +42,7 @@ a {
   
 }
 
-/* custom */
+/* custom bg images (mobile version)*/
 @media only screen and (max-width: 767px) {
   body{
     background-image: url(../public/pattern4.png),url(../public/pattern5.png),url(../public/pattern6.png),url(../public/pattern7.png);

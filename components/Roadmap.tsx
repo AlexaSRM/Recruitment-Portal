@@ -3,7 +3,7 @@ import { Chrono } from "react-chrono";
 
 function Roadmap() {
   return (
-    <div className="w-[100vw] flex flex-col fold_chrono justify-center items-center">
+    <div className="md:w-[90vw] flex flex-col fold_chrono justify-center items-center">
       <div className="md:text-6xl text-4xl md:font-bold font-medium">Road to <span className="text-[#28b3f2]">Alexa</span></div>
       <div className="md:my-12 md:w-[80%] w-[100%] mt-12">
         
