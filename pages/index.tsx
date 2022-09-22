@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Domains from '../components/Domains'
 import Landing from '../components/Landing'
 import Navbar from '../components/Navbar'
+import Roadmap from '../components/Roadmap'
 
 const Home: NextPage = () => {
   return (
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <Navbar/>
       <Landing/>
       <Domains/>
+      <Roadmap/>
     </div>
   )
 }
