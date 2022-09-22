@@ -44,5 +44,8 @@ a {
   .fold_width{
     margin-left: -4px;
   }
-
+  .fold_chrono{
+    /* margin-left: 20px; */
+    width: 350px;
+  }
 }
