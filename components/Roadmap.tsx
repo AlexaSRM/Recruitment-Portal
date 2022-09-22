@@ -1,15 +1,11 @@
 import React from 'react'
 import { Chrono } from "react-chrono";
-import Image from 'next/image'
-import group10 from '../public/Group10.png'
-import group11 from '../public/Group11.png'
-
 
 function Roadmap() {
   return (
-    <div className="w-[100vw] flex flex-col fold_chrono justify-center items-center">
+    <div className="md:w-[90vw] flex flex-col fold_chrono justify-center items-center">
       <div className="md:text-6xl text-4xl md:font-bold font-medium">Road to <span className="text-[#28b3f2]">Alexa</span></div>
-      <div className="md:my-12 md:w-[80%] w-[100%]">
+      <div className="md:my-12 md:w-[80%] w-[100%] mt-12">
         
         <Chrono
           mode="VERTICAL_ALTERNATING"
@@ -26,9 +22,6 @@ function Roadmap() {
             titleColorActive: 'grey',
           }}
         >
-          <div className="chrono-icons">
-            {/* icons */}
-          </div>
 
 
           <div className="p-0">

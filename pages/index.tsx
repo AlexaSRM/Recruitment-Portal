@@ -6,7 +6,7 @@ import Roadmap from '../components/Roadmap'
 
 const Home: NextPage = () => {
   return (
-    <div className="h-[100%] text-white">
+    <div className="h-[100%]">
       <Navbar/>
       <Landing/>
       <Domains/>

@@ -7,8 +7,16 @@ body {
 
   padding: 0;
   margin: 0;
+  color: white;
+  background: #01002d;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  /* custom bakcground images (desktop version) */
+  background-image: url(../public/pattern1.png),url(../public/pattern2.png),url(../public/pattern3.png);
+  background-size: 40%,30%,25%;
+  background-position:100% 0%,0% 75%,100% 100%;
+  background-repeat:no-repeat,no-repeat,no-repeat;
 }
 
 a {
@@ -19,6 +27,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.myFont{
+  font-family: 'Poppins', sans-serif;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -28,10 +39,19 @@ a {
     color: white;
     background: #01002d;
   }
-  .myFont{
-    font-family: 'Poppins', sans-serif;
+  
+}
+
+/* custom bg images (mobile version)*/
+@media only screen and (max-width: 767px) {
+  body{
+    background-image: url(../public/pattern4.png),url(../public/pattern5.png),url(../public/pattern6.png),url(../public/pattern7.png);
+    background-size: 30%,30%,45%,25%;
+    background-position:100% 0%,0% 35%,100% 55%,0% 90%;
+    background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;
   }
 }
+
 
 @media only screen and (max-width: 280px) {
   .fold{
