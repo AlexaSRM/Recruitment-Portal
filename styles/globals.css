@@ -32,3 +32,17 @@ a {
     font-family: 'Poppins', sans-serif;
   }
 }
+
+@media only screen and (max-width: 280px) {
+  .fold{
+    font-size: 36px;
+  }     
+  .fold_chat{
+    padding:10px;
+    text-align: left;
+  }
+  .fold_width{
+    margin-left: -4px;
+  }
+
+}
