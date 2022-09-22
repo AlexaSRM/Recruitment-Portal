@@ -7,6 +7,8 @@ body {
 
   padding: 0;
   margin: 0;
+  color: white;
+  background: #01002d;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
@@ -25,6 +27,9 @@ a {
 * {
   box-sizing: border-box;
 }
+.myFont{
+  font-family: 'Poppins', sans-serif;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -34,12 +39,19 @@ a {
     color: white;
     background: #01002d;
   }
-  .myFont{
-    font-family: 'Poppins', sans-serif;
-  }
+  
 }
 
-
+/* custom */
+@media only screen and (max-width: 767px) {
+  body{
+    background-color: black;
+    background-image: url(../public/pattern4.png),url(../public/pattern5.png),url(../public/pattern6.png),url(../public/pattern7.png);
+    background-size: 40%,30%,25%,25%;
+    background-position:100% 0%,0% 75%,100% 100%,100% 100%;
+    background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;
+  }
+}
 
 
 @media only screen and (max-width: 280px) {
