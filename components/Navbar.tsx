@@ -5,7 +5,7 @@ function Navbar() {
     <div className='flex lg:justify-between justify-start px-4 md:px-10 lg:px-16 py-10 items-center'>
       <div>
         <picture>
-          <img src="/alexa.png" alt="" />
+          <img src="/alexa.svg" alt="" />
         </picture>
       </div>
       <div className='lg:flex hidden text-2xl myFont font-semibold items-center'>
