@@ -24,7 +24,7 @@ function Roadmap() {
         >
 
 
-          <div className="p-0">
+          <div className="">
             <div className="md:text-4xl text-xl ml-auto flex justify-end font-medium my-4 text-[#FF8062]">Registration</div>
             <div className="md:text-base text-sm text-right text-white">Fill the form below by entering required details to get your journey started!</div>
           </div>

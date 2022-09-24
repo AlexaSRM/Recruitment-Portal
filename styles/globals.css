@@ -50,7 +50,7 @@ a {
   body{
     background-image: url(../public/pattern4.png),url(../public/pattern5.png),url(../public/pattern6.png),url(../public/pattern7.png);
     background-size: 30%,30%,45%,25%;
-    background-position:100% 0%,0% 35%,100% 55%,0% 90%;
+    background-position:100% 0%,0% 35%,100% 55%,0% 80%;
     background-repeat:no-repeat,no-repeat,no-repeat,no-repeat;
   }
 }
