@@ -53,4 +53,3 @@ The product is build by the following member(s):
 | <p align="center">![Aniruddha Chatterjee](https://github.com/ruddha2001.png?size=128)<br>[Aniruddha Chatterjee](https://github.com/ruddha2001)</p> |
 | <p align="center">![Aniruddha Chatterjee](https://github.com/ruddha2001.png?size=128)<br>[Aniruddha Chatterjee](https://github.com/ruddha2001)</p> |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------- |
