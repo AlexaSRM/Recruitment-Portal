@@ -23,3 +23,26 @@ Created by <a href="https://alexadevsrm.com">Alexa Developers SRM</a>.
 <div align="center">
   <img alt="Screenshot" src="https://user-images.githubusercontent.com/91051053/201163313-701531ed-7662-4087-bdf3-c99639fd07a0.png" />
 </div>
+
+## Installation 🔧
+
+Install dependencies and build the server
+
+```
+$ yarn build
+```
+
+Start the server
+
+```
+$ yarn start
+```
+
+## License
+
+`Recruitment Portal` is available under the MIT license. See the LICENSE file for more info.
+
+
+## Contributing
+
+Please read `Contributing.md` for details on our code of conduct, and the process for submitting pull requests to us.
