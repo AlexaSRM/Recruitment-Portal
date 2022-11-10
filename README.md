@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Alexa Logo" src="docs/logo.png" height="56" />
+  <img alt="Alexa Logo" src="https://user-images.githubusercontent.com/91051053/187466454-b18f2116-5469-4436-8e54-9de3aed1dcd4.png" height="56" />
 </div>
 <div align="center">
   <h2>Recruitment Portal'22</h2>
