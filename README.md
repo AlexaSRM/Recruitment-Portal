@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Alexa Logo" src="styles/logo.png" height="56" />
+  <img alt="Alexa Logo" src="public/logo.png" height="56" />
 </div>
 <div align="center">
   <h2>Recruitment Portal'22</h2>
