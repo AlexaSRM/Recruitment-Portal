@@ -50,5 +50,5 @@ Please read `Contributing.md` for details on our code of conduct, and the proces
 ## Shout outs
 The product is build by the following member(s):
 
-| <p align="center">![Ishan Chhabra](https://github.com/ishan-chhabra.png?size=128)<br>[Ishan Chhabra](https://ishanchhabra.com)</p> | <p align="center">![Sriram Kailasam](https://github.com/sriram-kailasam.png?size=128)<br>[Sriram Kailasam](https://github.com/sriram-kailasam)</p> | 
+| <p align="center">![Divyanshu Yadav](https://github.com/divyanshu1810.png?size=128)<br>[Divyanshu Yadav](https://github.com.divyanshu1810)</p> | <p align="center">![Sriram Kailasam](https://github.com/sriram-kailasam.png?size=128)<br>[Sriram Kailasam](https://github.com/sriram-kailasam)</p> | 
 | ---------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | 
