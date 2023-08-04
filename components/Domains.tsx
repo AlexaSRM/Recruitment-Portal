@@ -9,6 +9,7 @@ function Domains() {
         <div className="md:mx-6 ml-[5rem] md:my-0 my-2 p-2 shrink"><DomainsImage image={'/Frame9.png'}/></div>
         <div className="md:mx-6 mx-[2.5rem] md:my-0 my-2 p-2"><DomainsImage image={'/Frame10.png'}/></div>
         <div className="md:mx-6 mr-[5rem] md:my-0 my-2 p-2"><DomainsImage image={'/Frame11.png'}/></div>
+        <div className="md:mx-6 mr-[5rem] md:my-0 my-2 p-2"><DomainsImage image={'/Frame13.png'}/></div>
       </div>
     </div>
   )
