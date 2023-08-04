@@ -2,7 +2,7 @@
   <img alt="Alexa Logo" src="public/logo.png" height="56" />
 </div>
 <div align="center">
-  <h2>Recruitment Portal'22</h2>
+  <h2>Recruitment Portal'23</h2>
 </div>
 
 <br>
