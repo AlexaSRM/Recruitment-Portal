@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <div className="h-[100%]">
       <Head>
         <link rel="shortcut icon" href="/logo.png" />
-        <title>Recruitments &apos;22</title>
+        <title>Recruitments &apos;23</title>
       </Head>
       <Navbar/>
       <Landing/>
