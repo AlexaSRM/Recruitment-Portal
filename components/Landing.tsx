@@ -10,7 +10,7 @@ function Landing() {
         <div className='flex myFont md:hidden justify-end mr-4 text-8xl myFont font-semibold -mt-4 mb-4'>&apos;23</div>
         <div className='md:ml-2 myFont text-md text-left max-w-xs md:text-2xl md:max-w-xl mb-6 '>The official developers&apos; club of Amazon Alexa at SRMIST is now open to recruiting first and second year students! </div>
         <div className='md:ml-2 flex space-x-2 md:space-x-6'>
-            <div className='fold_width border-4 cursor-pointer border-white myFont px-2 py-1 md:px-4 md:py-2 rounded-xl lg:rounded-lg font-bold bg-white text-[#01002D] md:text-xl'><PopupButton id="cdPFPoHy"  className="my-button">Register Now</PopupButton></div>
+            <div className='fold_width border-4 cursor-pointer border-white myFont px-2 py-1 md:px-4 md:py-2 rounded-xl lg:rounded-lg font-bold bg-white text-[#01002D] md:text-xl'><PopupButton id="P7NE9ZV3"  className="my-button">Register Now</PopupButton></div>
             <Link href='https://discord.gg/SF4zPYdX'><div className='fold_width hover:bg-white hover:text-[#01002D] duration-150 border-white cursor-pointer border-4 px-2 py-1 myFont md:px-4 md:py-2 font-semibold rounded-xl lg:rounded-lg md:text-xl' >Join Discord</div></Link>
         </div>
     </div>
