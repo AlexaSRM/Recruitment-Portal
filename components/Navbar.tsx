@@ -18,7 +18,7 @@ function Navbar() {
         </Link>
         <div className=" cursor-pointer hover:bg-white hover:text-[#01002D] duration-150 border-white border-4 p-2 px-6 rounded-xl">
           <PopupButton
-            id="Uz8FAJgF"
+            id=""
             style={{ fontSize: 20 }}
             className="my-button"
           >

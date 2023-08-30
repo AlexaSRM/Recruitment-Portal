@@ -25,7 +25,7 @@ function Landing() {
       </div>
       <div className="md:ml-2 flex space-x-2 md:space-x-6">
         <div className="fold_width border-4 cursor-pointer border-white myFont px-2 py-1 md:px-4 md:py-2 rounded-xl lg:rounded-lg font-bold bg-white text-[#01002D] md:text-xl">
-          <PopupButton id="Uz8FAJgF" className="my-button">
+          <PopupButton id="" className="my-button">
             Register Now
           </PopupButton>
         </div>
